@@ -1,0 +1,9 @@
+# Este proyecto usa solo la biblioteca estándar de Python
+# No requiere dependencias externas
+
+# Python >= 3.7
+
+# Dependencias opcionales para desarrollo:
+# pytest>=7.0.0  # Para testing
+# black>=22.0.0  # Para formateo de código
+# mypy>=0.950   # Para type checking

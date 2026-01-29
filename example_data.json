@@ -1,0 +1,61 @@
+# Archivo de ejemplo de datos
+# Renombra este archivo a 'study_data.json' para probarlo
+
+{
+  "tasks": [
+    {
+      "id": 1706544000.0,
+      "title": "Estudiar para examen de Matemáticas",
+      "description": "Repasar capítulos 4-6 de álgebra lineal",
+      "priority": "Alta",
+      "due_date": "2026-02-05",
+      "category": "Matemáticas",
+      "completed": false,
+      "created_at": "2026-01-29"
+    },
+    {
+      "id": 1706544100.0,
+      "title": "Entregar ensayo de Literatura",
+      "description": "Ensayo sobre Don Quijote, mínimo 1000 palabras",
+      "priority": "Alta",
+      "due_date": "2026-02-03",
+      "category": "Literatura",
+      "completed": false,
+      "created_at": "2026-01-29"
+    },
+    {
+      "id": 1706544200.0,
+      "title": "Práctica de laboratorio de Química",
+      "description": "Completar informe del experimento de ácidos y bases",
+      "priority": "Media",
+      "due_date": "2026-02-10",
+      "category": "Química",
+      "completed": false,
+      "created_at": "2026-01-29"
+    }
+  ],
+  "habits": [
+    {
+      "id": 1706544300.0,
+      "name": "Leer 30 minutos",
+      "description": "Leer cualquier libro por al menos 30 minutos",
+      "target_days": 21,
+      "completed_dates": ["2026-01-27", "2026-01-28", "2026-01-29"],
+      "current_streak": 3,
+      "best_streak": 5,
+      "created_at": "2026-01-27"
+    },
+    {
+      "id": 1706544400.0,
+      "name": "Repasar vocabulario de Inglés",
+      "description": "Practicar 20 palabras nuevas en inglés",
+      "target_days": 30,
+      "completed_dates": ["2026-01-29"],
+      "current_streak": 1,
+      "best_streak": 1,
+      "created_at": "2026-01-29"
+    }
+  ],
+  "points": 145,
+  "level": 2
+}
